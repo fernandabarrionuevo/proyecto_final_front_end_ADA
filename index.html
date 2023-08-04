@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,700&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/ac2c8540a9.js" crossorigin="anonymous"></script>
+    <title>Rick and Morty - Proyecto Final ADA</title>
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <a class="title" href="./">Rick and Morty</a>
+            <ul class="nav__filter">
+                <li><button id="btnFilterAll">Todos</button></li>
+                <li><button id="btnFilterFemale">Mujeres</button></li>
+                <li><button id="btnFilterMale">Hombres</button></li>
+                <li><button id="btnFilterGenderLess">Genderless</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p id="totalCharacters"></p>
+        <div class="characters__container" id="characters__container">
+    
+        </div>
+        <div class="pagination">
+            <span id="actualPage"></span>
+            <span id="lastPage"></span>
+            <span>Ir a la página:</span>
+            <input id="specificPage" type="number">
+            <button id="goToPage">Ir</button>
+            <div class="pages__container">
+                <button id="btnStart">
+                    <i class="fa-solid fa-angles-left"></i>
+                </button>
+                <button id="btnPrev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button id="btnNext">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+                <button id="btnLast">
+                    <i class="fa-solid fa-angles-right"></i>
+                </button>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>Introducción a la Programación Frontend - Proyecto Final ADA<br>© 2023 Copyright creado por Fernanda Barrionuevo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
