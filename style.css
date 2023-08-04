@@ -44,7 +44,7 @@ button{
 
 .nav__filter li button{
     color: azure;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
 }
 
 .nav__filter{
@@ -58,7 +58,7 @@ button{
 /*----------------MAIN----------------*/
 
 main{
-    padding: 2rem 1rem;
+    padding: 3rem 2rem;
     font-size: 1.8rem;
 }
 
@@ -109,8 +109,12 @@ main{
 }
 
 .character__info{
-    padding: 1rem;
+    padding: 2rem;
     align-self: start;
+}
+
+#btnExpand{
+    padding-bottom: 1.5rem;
 }
 
 /*----------------PAGES----------------*/
@@ -122,11 +126,16 @@ main{
     margin-top: 2rem;
 }
 
+.pagination span{
+    margin-top: 1.2rem;
+}
+
 #specificPage{
     background-color: #f9ebdd;
     padding: .8rem 2rem;
     border-radius: 20px;
     border-style: none;
+    margin: 1.3rem 0 2rem;
 }
 
 #specificPage:focus{
@@ -136,7 +145,7 @@ main{
 .pages__container{
     display: flex;
     width: 40%;
-    margin-top: 1rem;
+    margin-top: 2rem;
     justify-content: space-around;
 }
 
